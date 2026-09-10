@@ -1,0 +1,31 @@
+public class TestMahasiswa {
+    public static void main(String args[]) {
+        // Objek 1 (Kode Awal)
+        Mahasiswa mhs1 = new Mahasiswa();
+        mhs1.nim = 101;
+        mhs1.nama = "Lestari";
+        mhs1.alamat = "Jl. Vinolia No 1A";
+        mhs1.kelas = "1A";
+        mhs1.tampilBiodata();
+
+        System.out.println("-------------------------");
+
+        // Objek 2 (Instansiasi Tambahan)
+        Mahasiswa mhs2 = new Mahasiswa();
+        mhs2.nim = 102;
+        mhs2.nama = "Budi";
+        mhs2.alamat = "Jl. Soekarno Hatta No 5";
+        mhs2.kelas = "1B";
+        mhs2.tampilBiodata();
+
+        System.out.println("-------------------------");
+
+        // Objek 3 (Instansiasi Tambahan)
+        Mahasiswa mhs3 = new Mahasiswa();
+        mhs3.nim = 103;
+        mhs3.nama = "Siti";
+        mhs3.alamat = "Jl. Mawar No 12";
+        mhs3.kelas = "1A";
+        mhs3.tampilBiodata();
+    }
+}
